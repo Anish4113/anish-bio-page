@@ -3,96 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <title>Anish Singh</title>
-  <style>
-    body {
-      margin: 0;
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: linear-gradient(135deg, #1e1e2f, #3b3b58);
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
-      color: white;
-      padding: 2rem 1rem;
-      box-sizing: border-box;
-    }
-    .card {
-      text-align: center;
-      padding: 3rem 4rem;
-      background: rgba(255, 255, 255, 0.05);
-      border-radius: 16px;
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      max-width: 480px;
-    }
-    .avatar {
-      width: 96px;
-      height: 96px;
-      margin: 0 auto 1.25rem auto;
-      border-radius: 50%;
-      background: linear-gradient(135deg, #7c7cf0, #b06ab3);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 2.25rem;
-      font-weight: 600;
-    }
-    h1 {
-      font-size: 2.5rem;
-      margin: 0 0 0.5rem 0;
-    }
-    .tagline {
-      font-size: 1.1rem;
-      color: #cfcfe6;
-      margin: 0 0 2rem 0;
-    }
-    .quotes {
-      text-align: left;
-      margin: 0 0 2rem 0;
-      padding: 0;
-      list-style: none;
-    }
-    .quotes li {
-      position: relative;
-      padding-left: 1.25rem;
-      margin-bottom: 0.9rem;
-      font-style: italic;
-      color: #e4e4f7;
-      line-height: 1.4;
-    }
-    .quotes li::before {
-      content: "\201C";
-      position: absolute;
-      left: 0;
-      top: -0.1rem;
-      color: #b06ab3;
-      font-size: 1.3rem;
-      font-style: normal;
-    }
-    h2 {
-      font-size: 0.85rem;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: #9d9dc4;
-      margin: 0 0 0.75rem 0;
-      text-align: left;
-    }
-    .interests {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-    }
-    .interests span {
-      background: rgba(255, 255, 255, 0.08);
-      border: 1px solid rgba(255, 255, 255, 0.15);
-      border-radius: 999px;
-      padding: 0.4rem 0.9rem;
-      font-size: 0.9rem;
-      color: #e4e4f7;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="card">
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="interests.html">Interests</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
     <div class="avatar">AS</div>
     <h1>Anish Singh</h1>
     <p class="tagline">Motivated by success.</p>
